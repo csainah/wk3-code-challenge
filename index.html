@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>sale list</title>
+        <link rel="stylesheet" href="shopping.css">
+    </head>
+    <body>
+        <h1>Shopping List</h1>
+        <form action="add" method="get">
+            <label for="">Add Item</label>
+            <input type="text" name="Item">
+            <input id="addNeed" type="submit" value="Need">
+            <input id="addHave" type="submit" value="Have">
+        </form>
+        <h2>Need:</h2>
+        <ul class="list">
+            <li><input type="checkbox" name="Item">soap<a href="#">$#0006;</a></li>
+            <li><input type="checkbox" name="Item">bread<a href="#">$#0006;</a></li>
+            <li><input type="checkbox" name="Item">kiwi<a href="#">$#0006;</a></li>
+            <li><input type="checkbox" name="Item">sugar<a href="#">$#0006;</a></li>
+            <li><input type="checkbox" name="Item">cup<a href="#">$#0006;</a></li>
+            </ul>
+            <h2>Have:</h2>
+            <ul class="list">
+                <li><input type="checkbox" name="Item" checked><blueband>blueband<a href="#">$#0006;</a></li>
+                    <li><input type="checkbox" name="Item" checked><spoon>spoon<a href="#">$#0006;</a></li>
+                        <li><input type="checkbox" name="Item" checked><plate>plate<a href="#">$#0006;</a></li>
+                            <li><input type="checkbox" name="Item" checked><fork>fork<a href="#">$#0006;</a></li>   
+            </ul>
+            <script src="shopping.js"></script>
+    </body>
+</html>
