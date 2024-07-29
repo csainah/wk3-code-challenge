@@ -3,16 +3,16 @@ var callback = function(event){
     event.preventDefault ();
     var input =$('input[type=text][name=item'),
     value =input.val(),
-    need =($ (event.target).attr('id')==='addNeed')
+    required =($ (event.target).attr('id')==='addRequired')
     item =$('<li><input type="checkbox" name= "item"> ' + value +' ? <a href ="#">remove</a> </li>),
-    List=(need)? $('ul').first (): $('ul').last ();
+    List=(required)? $('ul').first (): $('ul').last ();
     input.val ("");
     input.focus ();
     if (value==="")return;
-    if (!need) {
+    if (!required) {
         item.find ('input').attr('checked',true);
     }
-    $ ('#addHave, #addNeed').click(callback);
+    $ ('#addExist, #addRequired').click(callback);
     $ ('ul').on ('click,'li a',fuction(event){
         $(event.target).parent('li').remove();
     });

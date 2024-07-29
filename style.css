@@ -11,11 +11,11 @@ form {
 input [type="text"]{
     background-color: rgb(94, 82, 105);
 }
-#addNeed {
+#addRequired {
     background-color: #4b1515;
     color: rgb(42, 32, 52);
 }
-#addHave {
+#addExist {
     background-color: rgb(35, 5, 63);
     color: rgb(203, 137, 38);
 }

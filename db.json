@@ -2,5 +2,8 @@
   "name": "wk3-code-challenge",
   "lockfileVersion": 3,
   "requires": true,
-  "packages": {}
+  "packages": {
+    "Requires":[],
+    "Exists":[]
+  }
 }
