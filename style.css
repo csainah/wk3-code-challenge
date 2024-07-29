@@ -1,0 +1,38 @@
+body {
+background-color: aqua;
+width: 600px;
+margin: 0 auto;
+padding: 0;
+}
+form {
+    color: #4b1515;
+    font-size: medium;
+}
+input [type="text"]{
+    background-color: rgb(94, 82, 105);
+}
+#addNeed {
+    background-color: #4b1515;
+    color: rgb(42, 32, 52);
+}
+#addHave {
+    background-color: rgb(35, 5, 63);
+    color: rgb(203, 137, 38);
+}
+h1 {
+    color: azure;
+    font-size: medium;
+}
+h2 {
+    color: aliceblue;
+    font-size: 22px;
+    letter-spacing: normal;
+    text-align: left;
+}
+.list {
+    color: blue;
+    font-size: medium;
+    padding: 0 !important;
+    border: 1.3px; 
+}
+
