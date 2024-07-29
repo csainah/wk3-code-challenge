@@ -13,7 +13,7 @@ var callback = function(event){
         item.find ('input').attr('checked',true);
     }
     $ ('#addExist, #addRequired').click(callback);
-    $ ('ul').on ('click,'li a',fuction(event){
+    $ ('ul').on('click,'li a',fuction(event){
         $(event.target).parent('li').remove();
     });
     $('ul'.on('click','input[type=checkbox]',function(event){
